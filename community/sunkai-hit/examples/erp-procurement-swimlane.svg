@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="erp-procurement-swimlane-title erp-procurement-swimlane-desc">
+<title id="erp-procurement-swimlane-title">制造业 ERP 采购到入库泳道图（脱敏演示）</title>
+<desc id="erp-procurement-swimlane-desc">需求部门发起采购需求，采购部门选供应商并拟单；通常直接下单，发生涨价时进入负责人审批后再下单；随后进行质量检验和仓储入库。示例不代表客户最终确认流程。</desc>
+<defs>
+<pattern id="erp-swimlane-dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="0.8" fill="#2d3142" opacity="0.10"/></pattern>
+<marker id="erp-swimlane-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#4f5d75"/></marker>
+</defs>
+<rect x="0" y="0" width="1280" height="720" fill="#f5f5f5"/>
+<rect x="0" y="0" width="1280" height="720" fill="url(#erp-swimlane-dots)" opacity="0.38"/>
+<text x="48" y="52" fill="#4f5d75" font-size="13" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="start">PROCUREMENT · SWIMLANE</text>
+<text x="48" y="92" fill="#2d3142" font-size="32" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="start">制造业 ERP / 采购到入库</text>
+<text x="48" y="120" fill="#4f5d75" font-size="15" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="500" text-anchor="start">以部门交接为主线 · 涨价审批为条件分支 · 演示流程，非客户确认稿</text>
+<text x="1228" y="60" fill="#4f5d75" font-size="12" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="end">07 STEPS / 05 TEAMS</text>
+<line x1="44" y1="144" x2="1236" y2="144" stroke="#bfc0c0" stroke-width="1"/>
+<line x1="44" y1="244" x2="1236" y2="244" stroke="#d2d4dc" stroke-width="1"/>
+<line x1="44" y1="340" x2="1236" y2="340" stroke="#d2d4dc" stroke-width="1"/>
+<line x1="44" y1="436" x2="1236" y2="436" stroke="#d2d4dc" stroke-width="1"/>
+<line x1="44" y1="532" x2="1236" y2="532" stroke="#d2d4dc" stroke-width="1"/>
+<line x1="44" y1="628" x2="1236" y2="628" stroke="#d2d4dc" stroke-width="1"/>
+<line x1="176" y1="144" x2="176" y2="628" stroke="#bfc0c0" stroke-width="1"/>
+<text x="56" y="190" fill="#2d3142" font-size="16" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="start">需求部门</text>
+<text x="56" y="213" fill="#7a8399" font-size="10" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="500" text-anchor="start">REQUEST</text>
+<text x="56" y="286" fill="#2d3142" font-size="16" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="start">采购部门</text>
+<text x="56" y="309" fill="#7a8399" font-size="10" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="500" text-anchor="start">PROCUREMENT</text>
+<text x="56" y="382" fill="#2d3142" font-size="16" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="start">审批负责人</text>
+<text x="56" y="405" fill="#7a8399" font-size="10" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="500" text-anchor="start">APPROVAL</text>
+<text x="56" y="478" fill="#2d3142" font-size="16" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="start">品质部门</text>
+<text x="56" y="501" fill="#7a8399" font-size="10" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="500" text-anchor="start">QUALITY</text>
+<text x="56" y="574" fill="#2d3142" font-size="16" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="start">仓储部门</text>
+<text x="56" y="597" fill="#7a8399" font-size="10" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="500" text-anchor="start">WAREHOUSE</text>
+<!-- 先绘制箭头，再绘制节点；价格上涨才走虚线审批分支 -->
+<path d="M356 196 H368 Q376 196 376 204 V284 Q376 292 384 292 H392" fill="none" stroke="#4f5d75" stroke-width="2" marker-end="url(#erp-swimlane-arrow)"/>
+<line x1="548" y1="292" x2="584" y2="292" stroke="#4f5d75" stroke-width="2" marker-end="url(#erp-swimlane-arrow)"/>
+<line x1="740" y1="292" x2="784" y2="292" stroke="#4f5d75" stroke-width="2" marker-end="url(#erp-swimlane-arrow)"/>
+<path d="M740 312 H756 Q764 312 764 320 V380 Q764 388 772 388 H784" fill="none" stroke="#4f5d75" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#erp-swimlane-arrow)"/>
+<line x1="866" y1="356" x2="866" y2="324" stroke="#4f5d75" stroke-width="2" marker-end="url(#erp-swimlane-arrow)"/>
+<path d="M940 292 H964 Q972 292 972 300 V476 Q972 484 980 484 H996" fill="none" stroke="#4f5d75" stroke-width="2" marker-end="url(#erp-swimlane-arrow)"/>
+<line x1="1074" y1="516" x2="1074" y2="548" stroke="#4f5d75" stroke-width="2" marker-end="url(#erp-swimlane-arrow)"/>
+<!-- request -->
+<rect x="200" y="164" width="156" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="278" y="192" fill="#2d3142" font-size="16" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="middle">发起采购需求</text>
+<text x="278" y="213" fill="#4f5d75" font-size="12" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="400" text-anchor="middle">物料 / 数量</text>
+<!-- supplier -->
+<rect x="392" y="260" width="156" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="470" y="288" fill="#2d3142" font-size="16" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="middle">供应商选择</text>
+<text x="470" y="309" fill="#4f5d75" font-size="12" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="400" text-anchor="middle">比选与评级</text>
+<!-- draft -->
+<rect x="584" y="260" width="156" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="662" y="288" fill="#2d3142" font-size="16" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="middle">采购拟单</text>
+<text x="662" y="309" fill="#4f5d75" font-size="12" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="400" text-anchor="middle">报价 / 交付条件</text>
+<!-- approve -->
+<rect x="784" y="356" width="156" height="64" rx="6" fill="#fceddf" stroke="#eb6c36" stroke-width="1.7"/>
+<text x="862" y="384" fill="#2d3142" font-size="16" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="middle">涨价审批</text>
+<text x="862" y="405" fill="#4f5d75" font-size="12" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="400" text-anchor="middle">仅价格上涨时</text>
+<!-- order -->
+<rect x="784" y="260" width="156" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="862" y="288" fill="#2d3142" font-size="16" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="middle">发送采购订单</text>
+<text x="862" y="309" fill="#4f5d75" font-size="12" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="400" text-anchor="middle">通知供应商</text>
+<!-- quality -->
+<rect x="996" y="452" width="156" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="1074" y="480" fill="#2d3142" font-size="16" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="middle">来货质量检验</text>
+<text x="1074" y="501" fill="#4f5d75" font-size="12" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="400" text-anchor="middle">形成检验记录</text>
+<!-- stock -->
+<rect x="996" y="548" width="156" height="64" rx="6" fill="#fceddf" stroke="#eb6c36" stroke-width="1.7"/>
+<text x="1074" y="576" fill="#2d3142" font-size="16" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="600" text-anchor="middle">验收入库</text>
+<text x="1074" y="597" fill="#4f5d75" font-size="12" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="400" text-anchor="middle">更新库存台账</text>
+<line x1="44" y1="648" x2="1236" y2="648" stroke="#bfc0c0" stroke-width="1"/>
+<line x1="56" y1="676" x2="96" y2="676" stroke="#4f5d75" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="108" y="681" fill="#4f5d75" font-size="13" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="500" text-anchor="start">条件路径：发生涨价时转审批</text>
+<rect x="468" y="665" width="16" height="16" rx="2" fill="#fceddf" stroke="#eb6c36" stroke-width="1.5"/>
+<text x="496" y="681" fill="#4f5d75" font-size="13" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="500" text-anchor="start">关键节点 / 业务结果</text>
+<text x="1228" y="704" fill="#7a8399" font-size="12" font-family="'Geist','Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif" font-weight="400" text-anchor="end">示例 · 未经客户流程确认 · 2026-10-09</text>
+</svg>
